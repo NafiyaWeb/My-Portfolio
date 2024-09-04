@@ -1,0 +1,468 @@
+/* Custom styling for responsiveness */
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        /* Make sidebar full width on mobile devices */
+        height: auto;
+        position: relative;
+        /* Sidebar should no longer be fixed */
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sidebar h2{
+        padding-right: 10px;
+    }
+
+    section {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .home {
+        background-color: #000000;
+    }
+
+    .my-world {
+        color: #10A586;
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .home-heading {
+        color: #ffffff;
+        font-size: 25px;
+        padding-bottom: 10px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .home-tag {
+        color: #10A586;
+        font-size: 15px;
+        font-family: 'inter', sans-serif;
+    }
+    .anchor-button{
+        border: 1px solid #ffffff;
+        width: 100px;
+        padding: 10px;
+        color: #ffffff;
+        background-color: transparent;
+        font-family: 'inter', sans-serif;
+        font-size: 12px;
+    }
+
+    /*About*/
+    .about h2 {
+        color: #10A586;
+        font-size: 25px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .about-card h3 {
+        color: #10A586;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'inter', sans-serif;
+    }
+
+    .about-card p {
+        color: #ffffff;
+        font-size: 12px;
+        text-align: center;
+        padding: 0 15px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .j {
+        box-shadow: 0 4px 10px white;
+    }
+
+    .skills h2 {
+        color: #10A586;
+        font-size: 25px;
+        text-align: center;
+        font-family: 'inter', sans-serif;
+    }
+
+    .skills p {
+        color: #ffffff;
+        font-size: 15px;
+        text-align: center;
+        padding: 0 15px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .skills-container {
+        box-shadow: 0 4px 10px white;
+        text-align: center;
+        width: 100px;
+        margin: 8px;
+        /* Space around each card */
+        padding: 16px;
+        /* Padding inside the card */
+        transition: transform 0.3s ease;
+    }
+
+    .skills-container:hover {
+        transform: scale(1.05);
+    }
+
+    .skills-container i {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .skills-container p {
+        color: #10A586;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+    }
+
+    /* Projects Section */
+    .projects h2 {
+        color: #10A586;
+        font-family: 'Inter', sans-serif;
+        font-size: 25px;
+    }
+
+    .projects-card {
+        box-shadow: 0 4px 10px white;
+        background-color: #000000;
+        max-width: 500px;
+    }
+
+    .projects-card h3 {
+        color: #10A586;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .projects-card p {
+        color: #ffffff;
+        font-size: 15px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .projects-card a {
+        text-align: center;
+        border-color: #ffffff;
+        background-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .projects-card a:hover {
+        background-color: #10A586;
+    }
+
+
+    .contact h2 {
+        font-family: 'inter', sans-serif;
+        color: #10A586;
+    }
+
+    form div label {
+        color: #10A586;
+        font-family: 'inter', sans-serif;
+    }
+
+    form div input {
+        background-color: #000000;
+        border: 1px solid #ffffff;
+        font-size: 12px;
+        color: #ffffff;
+        font-family: 'inter', sans-serif;
+    }
+
+    form div textarea {
+        background-color: #000000;
+        border: 1px solid #ffffff;
+        font-size: 12px;
+        font-family: 'inter', sans-serif;
+    }
+
+    form button {
+        border: 1px solid #ffffff;
+        font-family: 'inter', sans-serif;
+    }
+
+    form button:hover {
+        background-color: #10A586;
+    }
+
+    .contact-info h3 {
+        font-family: 'inter', sans-serif;
+        color: #10A586;
+    }
+
+    .contact-info p {
+        color: #ffffff;
+        font-family: 'inter', sans-serif;
+        font-size: 15px;
+    }
+
+    .contact-info p strong {
+        color: #10A586;
+        font-family: 'inter', sans-serif;
+    }
+
+    .follow {
+        color: #ffffff;
+        font-family: 'inter', sans-serif;
+        font-size: 26px;
+    }
+
+    main {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    footer {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    nav{
+        border-right: 1px solid #ffffff;
+    }
+    section {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .sidebar ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.125rem;
+        display: block;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        transition: background 0.3s;
+        font-family: 'inter', sans-serif;
+    }
+
+    .sidebar ul li a:hover {
+        background-color: #10A586;
+    }
+    nav h2{
+      color: #10A586;
+      font-family: 'inter', sans-serif;
+    }
+    a.active {
+        background-color: #10A586; /* Set background color to green */
+        color: #fff; /* White text for contrast */
+        font-weight: bold;
+        padding-left: 10px;
+        border-radius: 4px;
+        font-family: 'inter', sans-serif;
+    }
+    
+    .home {
+        background-color: #000000;
+        padding-left: 60px;
+    }
+
+    .my-world {
+        color: #10A586;
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .home-heading {
+        color: #ffffff;
+        font-size: 55px;
+        padding-bottom: 10px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .home-tag {
+        color: #10A586;
+        font-size: 20px;
+        font-family: 'inter', sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .anchor-button {
+        border-color: #ffffff;
+        background-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .anchor-button:hover {
+        background-color: #10A586;
+    }
+
+    .my-profile {
+        box-shadow: 0 4px 10px white;
+        margin: 20px;
+    }
+
+    /*About */
+    .about h2 {
+        color: #10A586;
+        font-size: 35px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .about-card h3 {
+        color: #10A586;
+        font-size: 25px;
+        font-family: 'inter', sans-serif;
+        padding: 0 15px;
+    }
+
+    .about-card p {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 0 15px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .j {
+        box-shadow: 0 4px 10px white;
+    }
+
+    /* Skills Section */
+    .skills h2 {
+        font-family: 'Inter', sans-serif;
+        color: #10A586;
+    }
+
+    .skills p {
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+    }
+
+    .skills-container {
+        box-shadow: 0 4px 10px white;
+        text-align: center;
+        width: 200px;
+        margin: 8px;
+        /* Space around each card */
+        padding: 16px;
+        /* Padding inside the card */
+        transition: transform 0.3s ease;
+    }
+
+    .skills-container:hover {
+        transform: scale(1.05);
+    }
+
+    .skills-container i {
+        color: #ffffff;
+    }
+
+    .skills-container p {
+        color: #10A586;
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* Projects Section */
+    .projects h2 {
+        color: #10A586;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .projects-card {
+        box-shadow: 0 4px 10px white;
+        background-color: #000000;
+        max-width: 500px;
+    }
+
+    .projects-card h3 {
+        color: #10A586;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .projects-card p {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .projects-card a {
+        text-align: center;
+        border-color: #ffffff;
+        background-color: transparent;
+        border-width: 2px;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .projects-card a:hover {
+        background-color: #10A586;
+    }
+
+    /* contact section */
+    .contact{
+      margin-left: 70px;
+    }
+    .contact h2{
+      font-family: 'inter', sans-serif;
+      color: #10A586;
+    }
+    form div label{
+      color: #10A586;
+      font-family: 'inter', sans-serif;
+    }
+    form div input{
+      background-color: #000000;
+      border: 1px solid #ffffff;
+      font-size: 12px;
+      color: #ffffff;
+    }
+    
+    form div textarea{
+      background-color: #000000;
+      border: 1px solid #ffffff;
+      font-size: 12px;
+    }
+    form button{
+      border: 1px solid #ffffff;
+      font-family: 'inter',sans-serif;
+    }
+    form button:hover{
+      background-color: #10A586;
+    }
+    .contact-info h3{
+      font-family: 'inter', sans-serif;
+      color: #10A586;
+    }
+    .contact-info p{
+      color: #ffffff;
+      font-family: 'inter', sans-serif;
+      font-size: 15px;
+    }
+    .contact-info p strong{
+      color: #10A586;
+      font-family: 'inter', sans-serif;
+    }
+    .follow{
+      color: #ffffff;
+      font-family: 'inter', sans-serif;
+      font-size: 26px;
+    }
+
+    main {
+        margin-left: 16rem;
+        /* Keep the margin-left for large screens */
+        width: calc(100% - 16rem);
+        /* Adjust main width based on sidebar */
+    }
+}

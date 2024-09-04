@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body class="bg-black">
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar fixed left-0 top-0 h-screen w-64 bg-black text-white p-6">
+        <h2 class="text-4xl font-semibold">Portfolio</h2>
+        <ul class="flex flex-col space-y-4 mt-4">
+            <li><a href="#home" class="text-white transition active">Home</a></li>
+            <li><a href="#about" class="text-white transition">About</a></li>
+            <li><a href="#skills" class="text-white transition">Skills</a></li>
+            <li><a href="#projects" class="text-white transition">Projects</a></li>
+            <li><a href="#contact" class="text-white transition">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="">
+        <!-- Home Section -->
+        <section id="home" class="flex flex-col md:flex-row items-center justify-center bg-gray-100 py-16 min-h-screen home">
+            <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
+                <div class="md:mr-8 mb-8 md:mb-0">
+                    <p class="my-world text-1xl text-white font-semibold">WELCOME TO MY WORLD</p>
+                    <br>
+                    <h2 class="text-6xl font-bold text-white home-heading">Hello,</h2>
+                    <h2 class="text-6xl font-bold text-white home-heading">I'm Nafiya</h2>
+                    <h2 class="text-6xl font-bold text-white home-heading">Web Developer</h2>
+                    <p class="text-2xl font-semibold home-tag">Frontend Developer and 4.0 Technologies Enthusiast</p>
+                    <br>
+                    <a href="#projects" class="anchor-button text-white font-semibold py-3 px-6 rounded-lg transition duration-300">View My Work</a>
+                </div>
+                <div class="mt-8 md:mt-0">
+                    <img src="https://avatars.githubusercontent.com/u/178778159?s=400&u=3211ac19736c1b7df698091785ba8d65077839df&v=4" alt="Profile" class="w-80 h-80 rounded-full mx-auto shadow-lg my-profile">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- About Section with Timeline -->
+    <section id="about" class="bg-black py-16 px-8 md:px-32 lg:px-64 text-white">
+        <div class="about container mx-auto flex flex-col">
+            <h2 class="text-4xl font-bold mb-12 text-start ml-20">Who I Am?</h2>
+            <div class="about-card flex flex-col space-y-12">
+                <div class="timeline-item relative">
+                    <div class="bg-opacity-10 p-6 rounded-lg shadow-lg ml-16 j">
+                        <h3 class="text-xl font-bold">Student at NxtWave CCBP 4.0 Academy</h3>
+                        <p class="text-white mt-2">
+                            Hello, I'm Nafiya, Student at NxtWave CCBP 4.0 Academy, specializing in full-stack development and 4.0 technologies. Passionate about tackling coding challenges and working on hands-on projects through the industry’s first-ever IRC 4.0. Eager to embrace new opportunities and make an impact in the tech world.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item relative">
+                    <div class="bg-opacity-10 p-6 rounded-lg shadow-lg ml-16 j">
+                        <h3 class="text-xl font-bold">Expertise in 4.0 Technology Programs</h3>
+                        <p class="text-white mt-2">
+                            My expertise in 4.0 technologies is showcased through projects like Virtual Reality Mini Project, Generative AI Mini Project, and a Data Analytics dashboard.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item relative">
+                    <div class="bg-opacity-10 p-6 rounded-lg shadow-lg ml-16 j">
+                        <h3 class="text-xl font-bold">Running YouTube Channel</h3>
+                        <p class="text-white mt-2">
+                            I run a YouTube channel exploring 4.0 technologies and web development. I simplify complex concepts and showcase my projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-black py-16 px-8 md:px-32 lg:px-64 text-white ml-20">
+        <div class="skills container mx-auto flex flex-col items-start">
+            <h2 class="text-4xl font-bold">Skills</h2>
+            <p class="mt-4">These are the technologies I work with:</p>
+            <h2 class="text-2xl font-bold py-4">Frontend Technologies</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
+                <div class="skills-container">
+                    <i class="fab fa-html5 text-5xl"></i>
+                    <p class="font-semibold">HTML</p>
+                </div>
+                <div class="skills-container">
+                    <i class="fab fa-css3-alt text-5xl"></i>
+                    <p class="font-semibold">CSS</p>
+                </div>
+                <div class="skills-container">
+                    <i class="fab fa-bootstrap text-5xl"></i>
+                    <p class="font-semibold">Bootstrap</p>
+                </div>
+                <div class="skills-container">
+                    <i class="fab fa-js text-5xl"></i>
+                    <p class="font-semibold">JavaScript</p>
+                </div>
+                <div class="skills-container">
+                    <i class="fa-brands fa-react text-5xl"></i>
+                    <p class="font-semibold">React JS</p>
+                </div>
+            </div>
+            <br>
+            <h2 class="text-2xl font-bold py-4">Backend Technologies</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-8">
+                <div class="skills-container">
+                    <i class="fa-brands fa-python text-5xl"></i>
+                    <p class="font-semibold">Python</p>
+                </div>
+                <div class="skills-container">
+                    <i class="fa-solid fa-database text-5xl"></i>
+                    <p class="font-semibold">SQLite</p>
+                </div>
+                <div class="skills-container">
+                    <i class="fa-brands fa-node text-5xl"></i>
+                    <p class="font-semibold">Node JS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 px-8 md:px-32 lg:px-64 bg-black ml-20">
+        <div class="projects container mx-auto">
+            <h2 class="text-3xl font-bold text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                <!-- Project Card 1 -->
+                <div class="projects-card p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <h3 class="text-2xl font-bold text-blue-600">IKEA Inspired Furniture Website</h3>
+                    <p class="text-gray-700 mt-4">
+                        I developed this website using HTML, CSS, and JavaScript, incorporating a user-friendly interface with interactive features such as product hover effects, a functional shopping cart, and a Wishlist system.
+                    </p>
+                    <a href="https://nafiyaweb.github.io/Furniture-Website" target="_blank" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">
+                        View Project
+                    </a>
+                </div>
+
+                <div class="projects-card p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <h3 class="text-2xl font-bold text-blue-600">Restuarant Website</h3>
+                    <p class="text-gray-700 mt-4">
+                        I built a responsive restaurant website that features a sleek navigation bar, allowing easy access to different sections. The website is designed to offer a seamless browsing experience across devices, ensuring that users can explore the menu, services, and other details with ease.
+                    </p>
+                    <a href="https://nafiyaweb.github.io/Restuarant-Website/" target="_blank" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">
+                        View Project
+                    </a>
+                </div>
+
+                <div class="projects-card p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                    <h3 class="text-2xl font-bold text-blue-600">Wikipedia Search Application</h3>
+                    <p class="text-gray-700 mt-4">
+                        I developed a Wikipedia application that allows users to easily search for articles and retrieve information from Wikipedia's vast database. Built using HTML, CSS, and JavaScript, the application features a clean, responsive interface, ensuring seamless navigation across devices. The search functionality delivers accurate results, enhancing the user experience while providing quick access to relevant content.
+                    </p>
+                    <a href="https://nafiyaweb.github.io/Wikipedia-Search-Application/" target="_blank" class="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg">
+                        View Project
+                    </a>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-black py-16 px-8 md:px-32 lg:px-64 text-white">
+        <div class="contact container mx-auto">
+            <h2 class="text-4xl font-bold text-center md:text-left mb-12">Get In Touch</h2>
+
+            <div class="flex flex-col md:flex-row md:space-x-12 space-y-8 md:space-y-0">
+                <!-- Contact Form -->
+                <div class="w-full md:w-1/2">
+                    <form action="your-form-handler-url" method="POST">
+                        <div class="mb-6">
+                            <label for="name" class="block text-lg mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-lg focus:outline-none font-bold" placeholder="Type your Name" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-lg mb-2">Your Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg focus:outline-none font-bold" placeholder="Type your Email" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-lg mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-lg focus:outline-none font-bold" placeholder="Type your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-black text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="w-full md:w-1/2 contact-info">
+                    <h3 class="text-4xl font-bold mb-4">Contact Information</h3>
+                    <p class="text-lg mb-4">Feel free to reach out if you have any questions or want to connect. I'm always open to discussing new opportunities, collaborations, or anything tech-related!</p>
+                    <p class="text-lg mb-4"><strong>Email:</strong> nafiyashaik579@gmail.com</p>
+                    <p class="text-lg mb-4"><strong>Location:</strong> Proddatur, Kadapa district, Andhra Pradesh, India</p>
+
+                    <!-- Social Media Icons -->
+                    <div class="social-icons mt-4">
+                        <p class="follow text-lg font-semibold mb-4 ml-1">Follow Me On</p>
+                        <a href="https://www.linkedin.com/in/n-s-nafiya/" target="_blank" class="text-white mx-2">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://x.com/NSNafiya1" target="_blank" class="text-white mx-2">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@nsnafiya5172" target="_blank" class="text-white mx-2">
+                            <i class="fab fa-youtube fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-6 text-white text-center ml-60">
+        <p>&copy; 2024 Nafiya's Portfolio. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="#top" class="text-white">
+                <i class="fas fa-chevron-up"></i> Back to Top
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
